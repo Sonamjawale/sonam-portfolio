@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonam's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="profile.png" alt="Sonam Profile Picture" class="profile-pic" />
+    <h1>Hi, I'm Sonam 👋</h1>
+    <p>Electronics & Telecommunication Engineer | Web Developer/ Data Scientist</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a final year student at Sinhgad Institute Of Technology.I've got a grip on python ,SQL,PowerBi,Javascript.I love to build projects with real world applications</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+      <ul>
+      <li>Smart Concrete Curing System : The Smart Concrete Curing System is an automated setup 
+        using Arduino Uno that ensures optimal moisture levels for curing concrete. 
+        It uses temperature and soil moisture sensors to monitor conditions. Based on sensor data, 
+        servo motors control a T-pipe to direct water flow to the required area. A relay and motor pump manage the water supply, 
+        and a buzzer alerts when moisture levels are low. An I2C LCD displays real-time data, making the system efficient and 
+        user-friendly.</li>
+      <li>Agrisence: Automatic Seeding and watering System : "AGRISENCE" is a technology that utilizes IoT 
+        sensors to automate irrigation based on real-time soil moisture 
+        levels, optimize seed planting through smart seeding mechanisms, 
+        and continuously monitor crop health, allowing farmers to make 
+        data-driven decisions to maximize yield while minimizing water 
+        usage and resource waste</li>
+      <li>Swiggy Data Analysis Using Python : This project involves analyzing Swiggy food delivery data using
+       Python to uncover customer preferences, restaurant performance, and ordering patterns. 
+       The analysis includes data cleaning, exploration, and visualization using libraries like Pandas, NumPy, Matplotlib,.
+        Key insights such as most popular cuisines, peak ordering times, top-rated restaurants, and delivery trends are derived to 
+        help improve user experience and business decisions. 
+        The project demonstrates how data-driven strategies can optimize operations in the food delivery industry.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Python || SQL || Power Bi || Javascript || Arduino</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact me</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+    
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+    
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+    
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    
+    <p>Email: sonamjawale@59gmail.com</p>
+    <p>LinkedIn: https://www.linkedin.com/in/sonamjawale29</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sonam. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
